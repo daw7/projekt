@@ -10,8 +10,8 @@ App.controller('SignupController', SignupController);
 
 var configFunction = function ($routeProvider, $httpProvider) {
     $routeProvider
-        .when("/", {
-        templateUrl: ""
+        .when("/#/", {
+            templateUrl: ""
          })
          .when("/about", {
              templateUrl: "rentCar/Views/About.html"
