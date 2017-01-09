@@ -1,7 +1,5 @@
 ﻿var App = angular.module('App', ['ngRoute', 'ui.bootstrap', 'chart.js']);
 
-
-
 App.controller('MainController', MainController);
 App.controller('LoginController', LoginController);
 App.controller('AboutController', AboutController);

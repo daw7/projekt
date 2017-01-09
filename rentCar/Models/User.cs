@@ -29,6 +29,8 @@ namespace rentCar.Models
         public string address { get; set; }
         public string city { get; set; }
         public string postalCode { get; set; }
+        public string login { get; set; }
+        public string password { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Order> Orders { get; set; }
