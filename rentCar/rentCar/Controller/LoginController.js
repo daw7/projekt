@@ -43,7 +43,7 @@
         fact.getUserDetails = function (d) {
             debugger;
             return $http({
-                url: '/Home/Login/getLoginData',
+                url: '/Data/getLoginData',
                 method: 'POST',
                 data: JSON.stringify(d),
                 headers: { 'content-type': 'application/json' }

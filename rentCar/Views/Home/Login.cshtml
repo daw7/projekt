@@ -45,7 +45,7 @@
                 <tr>
                     <td>Login:</td>
                     <td>
-                        <input type="Login" ng-model="Login.Login" name="Login" ng-class="Submited?'ng-dirty':''" required autofocus class="form-control" />
+                        <input type="Login" ng-model="Login.Username" name="Login" ng-class="Submited?'ng-dirty':''" required autofocus class="form-control" />
                         <span style="color:red" ng-show="(myForm.Login.$dirty || Submited ) && myForm.Login.$error.required">Please enter Login</span>
                         <span style="color:red" ng-show="myForm.Login.$error.Login">Login is not valid</span>
                     </td>
@@ -69,6 +69,6 @@
 </body>
 </html>
 
-@*@section scripts{
+@section scripts{
     <script src="~/rentCar/Controller/LoginController.js"></script>
-}*@
+}
